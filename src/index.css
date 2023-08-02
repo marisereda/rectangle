@@ -25,6 +25,7 @@ code {
   position: relative;
   vertical-align: middle;
   font-size: 50px;
+  user-select: none;
 }
 
 .target {
@@ -38,6 +39,8 @@ code {
   font-size: 30px;
   transform: translate(-50%, -50%);
   cursor: move;
+  user-select: none;
+
 }
 
 .description {
